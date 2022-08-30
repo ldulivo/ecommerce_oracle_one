@@ -1,0 +1,221 @@
+.NavBar {
+  background: $color_secondary;
+  /* padding: 0 152px; */
+  height: 114px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .NavBar--content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1136px;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    
+    li {
+      display: flex;
+      align-items: center;
+    }
+    
+    .NavBar--branch {
+      gap: 32px;
+    }
+
+    .NavBar--search {
+      background-color: $color_primary;
+      padding: 8px 16px;
+      gap: 8px;
+      width: 393px;
+      height: 40px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: $color_text;
+        width: calc(100% - 17px);
+        height: 100%;
+
+        &::placeholder {
+          color: $color_text;
+        }
+      }
+
+      svg {
+        width: 17px;
+      }
+    }
+
+    .NavBar--btn {
+      
+      > button {
+        width: 182px;
+        height: 51px;
+        padding: 16px;
+        border: 1px solid $color_alert;
+        color: $color_alert;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .NavBar {
+    .NavBar--content {
+      padding: 16px 32px;
+      li {
+
+        img {
+          width: 145px;
+        }
+        
+        .NavBar--search {
+          width: 329px;
+          height: 41px;
+        }
+      }
+
+      .NavBar--btn {
+        
+        > button {
+          width: 166px;
+          height: 45px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .NavBar {
+    .NavBar--content {
+      padding: 16px 32px;
+      li {
+
+        img {
+          width: 100px;
+        }
+        
+        .NavBar--search {
+          width: 272px;
+          height: 28px;
+        }
+      }
+
+      .NavBar--btn {
+        
+        > button {
+          width: 166px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .NavBar {
+    .NavBar--content {
+      padding: 16px 32px;
+      li {
+
+        img {
+          width: 100px;
+        }
+        
+        .NavBar--search {
+          width: 200px;
+          height: 28px;
+        }
+      }
+
+      .NavBar--btn {
+        
+        > button {
+          width: 100px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 512px) {
+  .NavBar {
+    .NavBar--content {
+      padding: 16px;
+      position: relative;
+
+      .NavBar--branch {
+        gap: unset;
+        width: 100%;
+        justify-content: space-between;
+
+        img {
+          width: 100px;
+        }
+        
+        .NavBar--search {
+          width: 17px;
+          height: 17px;
+          background-color: unset;
+          padding: unset;
+          gap: unset;
+          display: flex;
+          align-items: center;
+
+          input {
+            display: none;
+          }
+        }
+      }
+
+      .NavBar--btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        > button {
+          width: 133px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .NavBar {
+    .NavBar--content {
+
+      .NavBar--branch {
+        img {
+          width: 90px;
+        }
+      }
+
+      .NavBar--btn {
+        
+        > button {
+          width: 85px;
+          height: 30px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
