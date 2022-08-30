@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecommerce_oracle_one/static/css/main.816cc833.css",
+    "main.js": "/ecommerce_oracle_one/static/js/main.851cf6cb.js",
+    "static/js/787.9285c9e0.chunk.js": "/ecommerce_oracle_one/static/js/787.9285c9e0.chunk.js",
+    "index.html": "/ecommerce_oracle_one/index.html",
+    "main.816cc833.css.map": "/ecommerce_oracle_one/static/css/main.816cc833.css.map",
+    "main.851cf6cb.js.map": "/ecommerce_oracle_one/static/js/main.851cf6cb.js.map",
+    "787.9285c9e0.chunk.js.map": "/ecommerce_oracle_one/static/js/787.9285c9e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.816cc833.css",
+    "static/js/main.851cf6cb.js"
+  ]
+}
