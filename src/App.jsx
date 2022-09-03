@@ -6,6 +6,13 @@ import { Home } from './pages/Home'
 import { Login } from './pages/Login'
 
 const App = () => {
+  localStorage.setItem('usr', 'leonardo')
+  localStorage.setItem('jwt', 'alfajor')
+  const MyLocalStorage = localStorage.getItem('usr')
+  const MyLocalStorageJWT = localStorage.getItem('jwt')
+  console.log(MyLocalStorage)
+  console.log(MyLocalStorageJWT)
+
   return (
     <BrowserRouter basename='/ecommerce_oracle_one/'>
       <NavBar />
