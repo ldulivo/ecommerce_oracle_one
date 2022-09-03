@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/ecommerce_oracle_one/static/css/main.816cc833.css",
-    "main.js": "/ecommerce_oracle_one/static/js/main.851cf6cb.js",
+    "main.css": "/ecommerce_oracle_one/static/css/main.43d2d6a5.css",
+    "main.js": "/ecommerce_oracle_one/static/js/main.b3410293.js",
     "static/js/787.9285c9e0.chunk.js": "/ecommerce_oracle_one/static/js/787.9285c9e0.chunk.js",
+    "static/media/banner.png": "/ecommerce_oracle_one/static/media/banner.d4d50a22e8177c8a528a.png",
+    "static/media/unsplash_6FDXGY9J6y4.png": "/ecommerce_oracle_one/static/media/unsplash_6FDXGY9J6y4.7a72685c64eb9fefd041.png",
     "index.html": "/ecommerce_oracle_one/index.html",
-    "main.816cc833.css.map": "/ecommerce_oracle_one/static/css/main.816cc833.css.map",
-    "main.851cf6cb.js.map": "/ecommerce_oracle_one/static/js/main.851cf6cb.js.map",
+    "main.43d2d6a5.css.map": "/ecommerce_oracle_one/static/css/main.43d2d6a5.css.map",
+    "main.b3410293.js.map": "/ecommerce_oracle_one/static/js/main.b3410293.js.map",
     "787.9285c9e0.chunk.js.map": "/ecommerce_oracle_one/static/js/787.9285c9e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.816cc833.css",
-    "static/js/main.851cf6cb.js"
+    "static/css/main.43d2d6a5.css",
+    "static/js/main.b3410293.js"
   ]
 }
