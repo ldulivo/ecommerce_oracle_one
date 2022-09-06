@@ -59,40 +59,8 @@
       overflow-x: scroll;
       scroll-snap-type: x mandatory;
 
-      > .card {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        scroll-snap-type: x proximity;
-        scroll-snap-align: center;
-        
-        &:hover,
-        &:focus {
-          text-decoration: none;
-          box-shadow: inset 0px 0px 2px 0px $color_alert;        
-        }
-
-        .product-img {
-          width: 176px;
-          height: 174px;
-          overflow: hidden;
-          display: grid;
-          place-items: center;
-
-          > img {
-            width: 100%;
-          }
-        }
-
-        .product-name {
-          font-weight: 500;
-          font-size: 14px;
-        }
-
-        .product-price {
-          font-weight: 700;
-          font-size: 16px;
-        }
+      &::-webkit-scrollbar {
+        display: none;
       }
     }
   }
